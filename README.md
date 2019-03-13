@@ -1,16 +1,13 @@
 # OctoPrint-Octosmash
 
-**TODO:** Describe what your plugin does.
+A plugin for integrating printer status with a Smashing dashboard.
 
 ## Setup
 
 Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
 or manually using this URL:
 
-    https://github.com/you/OctoPrint-Octosmash/archive/master.zip
-
-**TODO:** Describe how to install your plugin, if more needs to be done than just installing it via pip or through
-the plugin manager.
+    https://github.com/apbetioli/OctoPrint-Octosmash/archive/master.zip
 
 ## Configuration
 

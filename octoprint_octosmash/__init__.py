@@ -28,7 +28,13 @@ class OctosmashPlugin(octoprint.plugin.StartupPlugin, octoprint.plugin.SettingsP
 				"moreinfo": payload["state_string"]
 			}
 			self.call(data)
-
+		elif event == 'PrintStarted':
+			data = { 
+				"status": "printing",
+				"moreinfo": str(payload["path"]), 
+				"value": "0"
+			}
+			self.call(data)
 
 	def on_print_progress(self, storage, path, progress):
 		data = { 
